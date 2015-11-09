@@ -1,0 +1,11 @@
+div {
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-color: #c00;
+    border-radius: 100px 100px 0 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 120px;
+    height: 75px;
+}

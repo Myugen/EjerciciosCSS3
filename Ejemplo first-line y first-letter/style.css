@@ -1,0 +1,11 @@
+#storytitle
+ { font-family: Verdana; }
+.storybody p
+ { font-family: Arial; }
+.storybody p:first-line
+{background-color:silver;}
+.storybody p:first-letter
+ { font-size:xx-large;
+ color:white;
+ background-color:black;
+font-family:Verdana; }

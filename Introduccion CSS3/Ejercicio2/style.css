@@ -1,0 +1,9 @@
+div{
+    border: 5px solid blue;
+    width: 120px;
+    height: 75px;
+    border-radius: 20px 100px 100px 20px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}

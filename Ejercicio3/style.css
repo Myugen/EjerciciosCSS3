@@ -1,0 +1,11 @@
+.primeraLista:nth-child(n+6) {
+    background-color: aqua;
+}
+
+.segundaLista:nth-child(n+4):nth-child(-n+8) {
+    background-color: darkseagreen;
+}
+
+.terceraLista:nth-child(-n+9) {
+    background-color: firebrick;
+}

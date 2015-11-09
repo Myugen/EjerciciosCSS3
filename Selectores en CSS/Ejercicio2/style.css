@@ -1,0 +1,54 @@
+div:only-of-type {
+    padding-top: 10px;
+    background-color: dodgerblue;
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+    font-family: "Arial";
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 20px auto;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+ul > li {
+    cursor: pointer;
+    margin: 20px auto;
+    padding: 10px 20px;
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: aliceblue;
+    background-color: darkslateblue;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+ul > li:hover {
+    background-color: cornflowerblue;
+}
+
+ul > li:first-of-type {
+    border-radius: 15px 0 0 15px;
+}
+
+ul > li:last-of-type {
+    border-radius: 0 15px 15px 0;
+}
+
+p:first-of-type {
+    margin: 0 75px 0 5px;
+    text-align: justify;
+}
+
+p:last-of-type {
+    margin-left: 20px;
+}
+
+span {
+    font-family: "Gothic";
+}

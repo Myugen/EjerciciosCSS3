@@ -1,0 +1,9 @@
+div {
+    width: 20px;
+    height: 20px;
+    border: 1px black solid;
+}
+
+td:nth-child(odd){
+    background-color: aquamarine;
+}

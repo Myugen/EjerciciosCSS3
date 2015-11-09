@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+    text-align: right;
+    font-family: "Arial";
+}
+
+tr:first-child td:nth-child(n+1) {
+    font-weight: bold;
+    background-color: crimson;
+    color: antiquewhite;
+    padding-right: 10px;
+    width: 125px;
+    font-variant: small-caps;
+    vertical-align: text-top;
+}
+
+tr:nth-child(n+1) td:first-child {
+    font-weight: bold;
+    background-color: crimson;
+    color: antiquewhite;
+    width: 50px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+tr:nth-child(4n+2) td:nth-child(n+2) {
+    background-color: skyblue;
+    border-bottom: 1px solid black;
+    padding-right: 20px;
+}
+
+tr:nth-child(4n+3) td:nth-child(n+2) {
+    background-color: mediumpurple;
+    border-bottom: 1px solid black;
+    padding-right: 20px;
+}
+
+tr:nth-child(4n+4) td:nth-child(n+2) {
+    background-color: burlywood;
+    border-bottom: 1px solid black;
+    padding-right: 20px;
+}
+
+tr:nth-child(4n+5) td:nth-child(n+2) {
+    background-color: saddlebrown;
+    border-bottom: 1px solid black;
+    padding-right: 20px;
+}

@@ -1,0 +1,27 @@
+td {
+    width: 30px;
+    height: 30px;
+    background-color: coral;
+    box-sizing: border-box;
+}
+
+tr:nth-child(2n+1) td:nth-child(2n+2) {
+    background-color: black;
+}
+
+tr:nth-child(2n+2) td:nth-child(2n+1) {
+    background-color: black;
+}
+
+tr:nth-child(2n+3):nth-child(-2n+5) td:nth-child(2n+3):nth-child(-2n+5){
+    background-color: white;
+}
+
+tr:nth-child(2n+4):nth-child(-2n+6) td:nth-child(2n+4):nth-child(-2n+6){
+    background-color: white;
+}
+
+tr:nth-child(4) td:nth-child(7) {
+    background-color: crimson;
+    border: 7px inset black;
+}
