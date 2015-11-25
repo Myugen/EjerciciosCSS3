@@ -1,0 +1,67 @@
+/*Fuente*/
+@font-face{
+    font-family: "Junge";
+    src: url("../fonts/Junge/Junge-regular.ttf");
+}
+body
+{
+    background: url("../images/tile.jpg") repeat-x top,
+        url("../images/tile.jpg") repeat-x bottom,
+        -webkit-linear-gradient(top, #6e101e 0%, #d6bd85 10%, #d6bd85 90%, #6e101e);
+        /*-webkit-linear-gradient(bottom, #6e101e 0%, #d6bd85 50%);*/
+    /*background-image: url("../images/tile.jpg"), url("../images/tile.jpg");
+    background-position: top, bottom;
+    background-repeat: repeat-x;*/
+    width:75%;
+    margin:0 auto;
+    padding:5%;
+    font-family:Verdana,arial,sans-serif;
+
+}
+
+h1 {
+    color:#CACED1;
+    text-align:center;
+}
+
+h2 {
+    padding: 2% 0 0 2%;
+    font-size: 2em;
+    border-bottom:1px dotted white;
+    margin: 2%;
+}
+
+h1, h2 {
+    font-family: "Junge";
+    text-transform: uppercase;
+}
+
+div {
+    color: white;
+    
+    background-color:#095686;
+    border-radius: 25px;
+    box-shadow: 1px 5px 5px black;
+}
+
+div:last-child {
+    background-color: #333;
+}
+
+div:last-child p {
+    border: none;
+    font-size: 0.75em;
+    padding:1%;
+}
+
+div p {
+    box-sizing: border-box;
+    padding:1%;
+    border-bottom:1px dotted white;
+    margin: 2%;
+}
+
+div p:first-child {
+    padding: 0 1% 1% 1%;
+}
+

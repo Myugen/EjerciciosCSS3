@@ -1,0 +1,180 @@
+#fondo {
+	background:url(fondo.jpg);
+    z-index: 1;
+	height: 335px;
+	width: 450px;
+	overflow: hidden;
+	animation: fondo 2s linear infinite;
+	-webkit-animation: fondo 2s linear infinite;
+	-moz-animation: fondo 2s linear infinite;		
+}
+@-webkit-keyframes fondo {  /* Safari y Chrome */
+		from { background-position: left top; }
+		to   {  background-position: right top;) }
+	}
+@-moz-keyframes fondo {  /* mozilla */
+		from { background-position: left top; }
+		to   {  background-position: right top;) }
+	}
+@keyframes fondo {  /* sintaxis original */
+		from { background-position: left top; }
+		to   {  background-position: right top;) }
+}
+#sol {
+	background:url(sol.png);
+	position: absolute;
+	width: 112px;
+    height: 69px;	
+}
+
+#nube {
+    width: 450px;
+    height: 64px;
+    top: 30px;
+    position: absolute;
+    background: url(Paper_Lakitu2.png) no-repeat;
+    animation: nube 4s linear infinite;
+	-webkit-animation: nube 4s linear infinite;
+	-moz-animation: nube 4s linear infinite;
+}
+
+@-webkit-keyframes nube {  /* Safari y Chrome */
+		from { background-position: 120% top; }
+		to   {  background-position: -100px top;) }
+	}
+@-moz-keyframes nube {  /* mozilla */
+		from { background-position: 120% top; }
+		to   {  background-position: -100px top;) }
+	}
+@keyframes nube {  /* sintaxis original */
+		from { background-position: 120% top; }
+		to   {  background-position: -100px top;) }
+}
+
+#carro {
+    z-index: 3;
+	background:url(carro.png);
+	width: 355px;
+	height: 118px;
+	position:absolute;
+	top: 190px;
+	left: 50px;
+}
+#llanta1{
+	background-image:url(llanta.png);
+	position: absolute;
+	top: 70px;
+	left: 25px;
+	width: 60px;
+	height: 60px;
+	z-index:10;
+	animation: llanta1 .7s infinite linear;
+	-moz-animation: llanta1 .7s infinite linear;
+	-webkit-animation: llanta1 .7s infinite linear;
+}
+
+	@-webkit-keyframes llanta1 {  /* Safari and Chrome */
+		from { -webkit-transform: rotate(0deg) }
+		to   { -webkit-transform: rotate(360deg) }
+	}
+	@-moz-keyframes llanta1 {  /* Firefox */
+		from { -moz-transform: rotate(0deg) }
+		to   { -moz-transform: rotate(360deg) }
+	}
+	@keyframes llanta1 { /*  sintaxis original  */
+		from { transform: rotate(0deg) }
+		to   { transform: rotate(360deg) }
+	}
+#llanta2{
+	background-image:url(llanta.png);
+	position: absolute;
+	top: 69px;
+	left: 261px;
+	width: 60px;
+	height: 60px;
+	z-index:10;
+	animation: llanta1 .7s infinite linear;
+	-moz-animation: llanta1 .7s infinite linear;
+	-webkit-animation: llanta1 .7s infinite linear;
+}
+
+	@-webkit-keyframes llanta1 {  /* Safari and Chrome */
+		from { -webkit-transform: rotate(0deg) }
+		to   { -webkit-transform: rotate(360deg) }
+	}
+	@-moz-keyframes llanta1 {  /* Firefox */
+		from { -moz-transform: rotate(0deg) }
+		to   { -moz-transform: rotate(360deg) }
+	}
+	@keyframes llanta1 { /*  sintaxis original  */
+		from { transform: rotate(0deg) }
+		to   { transform: rotate(360deg) }
+	}
+
+#carro2 {
+    overflow: hidden;
+    z-index: 1;
+	background:url(carro.png) no-repeat;
+    background-size: 50%;
+	width: 450px;
+	height: 118px;
+	position:absolute;
+	top: 190px;
+    transform: rotateY(-180deg);
+    animation: coche 4s infinite linear;
+	-webkit-animation: coche 4s infinite linear;
+	-moz-animation: coche 4s infinite linear;
+}
+@-webkit-keyframes coche {  /* Safari y Chrome */
+		from { left: 120%; }
+		to   {  left: -80%; }
+	}
+@-moz-keyframes coche {  /* mozilla */
+		from { left: 120%; }
+		to   {  left: -80%; }
+	}
+@keyframes coche {  /* sintaxis original */
+		from { left: 120%; }
+		to   {  left: -80%; }
+}
+
+#llanta3 {
+    background:url(llanta.png) no-repeat;
+	background-size: 40px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 42px;
+    left: 15px;
+	z-index:1;
+	animation: llanta1 .7s infinite linear;
+	-moz-animation: llanta1 .7s infinite linear;
+	-webkit-animation: llanta1 .7s infinite linear;
+    transform: rotateY(180deg);
+}
+
+#llanta4 {
+    background:url(llanta.png) no-repeat;
+	background-size: 40px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 42px;
+    left: 165px;
+	z-index:1;
+	animation: llanta1 .7s infinite linear;
+	-moz-animation: llanta1 .7s infinite linear;
+	-webkit-animation: llanta1 .7s infinite linear;
+    transform: rotateY(180deg);
+}
+@-webkit-keyframes llanta3 {  /* Safari y Chrome */
+		from { background-position: -120% top; }
+		to   {  background-position: 500px top; }
+	}
+@-moz-keyframes llanta3 {  /* mozilla */
+		from { background-position: -120% top; }
+		to   {  background-position: 500px top; }
+	}
+@keyframes llanta3 {  /* sintaxis original */
+		from { background-position: -120% top; }
+		to   {  background-position: 500px top; }

@@ -1,0 +1,34 @@
+body
+{
+   margin:0 auto;
+   padding:0;
+   background-color:#8B0909;
+}
+
+#gallery
+{
+   padding:5%;
+   margin:0 auto;
+}
+
+/* Make each div float to the left and adjust the size*/
+#gallery div
+{
+   float:left;
+   margin:1%;
+
+   /* Make sure that the container never gets too small */
+   min-width:240px;
+
+   /* Add a white background and padding to create a
+    * polaroid effect.
+    */
+   background-color:white;
+   padding:3%;
+}
+
+
+#gallery div img:hover {
+    transform: rotate(-10deg) scale(1.2, 1.2);
+    box-shadow: 1px 5px 5px black;
+}
